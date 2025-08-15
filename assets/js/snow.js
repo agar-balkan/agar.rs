@@ -78,4 +78,23 @@ function init() {
 	} /*snow()*/
 }
 
+var flakes = [];
+var canvas = document.getElementById("nokey");
+var ctx = canvas.getContext("2d");
+var flakeCount = 100;
+var mX = -100;
+var mY = -100;
+
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+canvas.addEventListener("mousemove", function (e) {
+	mX = e.clientX;
+	mY = e.clientY;
+});
+
+window.addEventListener("resize", function () {
+	canvas.width = window.innerWidth - 20;
+	canvas.height = window.innerHeight;
+});
+
 init();

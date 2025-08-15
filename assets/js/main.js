@@ -31990,7 +31990,7 @@ Vector2Const = {
 					var t = e.$route.query.ip;
 					console.log("Connecting to your server: " + t);
 					window.CONNECTION_URL = t;
-					window.setRegion(t);
+					//window.setRegion(t);
 				}
 			});
 		},
@@ -43487,7 +43487,6 @@ Vector2Const = {
 	e.exports = n;
 }]);
 
-
 // =========================================================================================
 
 
@@ -46168,22 +46167,3 @@ var warnings = 0;
 	var e = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame || function (e) { window.setTimeout(e, 1000 / 60); };
 	window.requestAnimationFrame = e;
 })();
-
-var flakes = [];
-var canvas = document.getElementById("nokey");
-var ctx = canvas.getContext("2d");
-var flakeCount = 100;
-var mX = -100;
-var mY = -100;
-
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-canvas.addEventListener("mousemove", function (e) {
-	mX = e.clientX;
-	mY = e.clientY;
-});
-
-window.addEventListener("resize", function () {
-	canvas.width = window.innerWidth - 20;
-	canvas.height = window.innerHeight;
-});
