@@ -1,0 +1,1 @@
+(module.exports = require("./1.js")()).push([module.i, "#rules[data-v-7810d573]{color:#fff;margin-top:80px;font-size:18px}p[data-v-7810d573]{text-align:justify}", ""]);

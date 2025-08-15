@@ -1,0 +1,27 @@
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.CHANGE_OPTION = "CHANGE_OPTION";
+exports.CHANGE_OPTION_COLOR = "CHANGE_OPTION_COLOR";
+exports.COME_FROM_MOBILE = "COME_FROM_MOBILE";
+exports.LOGIN = "LOGIN";
+exports.SET_BAN = "SET_BAN";
+exports.RECEIVE_SERVERS = "RECEIVE_SERVERS";
+exports.CHANGE_SERVER = "CHANGE_SERVER";
+exports.CHANGE_SERVER_TYPE = "CHANGE_SERVER_TYPE";
+exports.CHANGE_SKINNAME = "CHANGE_SKINNAME";
+exports.CHANGE_LOGGED_NAME = "CHANGE_LOGGED_NAME";
+exports.CHANGE_HAT = "CHANGE_HAT";
+exports.LOAD_RANK = "LOAD_RANK";
+exports.GET_COINS = "GET_COINS";
+exports.CHANGE_RANK = "CHANGE_RANK";
+exports.CHANGE_NICKNAME = "CHANGE_NICKNAME";
+exports.SET_BANNED = "SET_BANNED";
+exports.SET_ROLE = "SET_ROLE";
+exports.SET_COLOR = "SET_COLOR";
+exports.SET_EMAIL = "SET_EMAIL";
+exports.SET_ID = "SET_ID";
+exports.ACTIVE_SKIN = "ACTIVE_SKIN";
+exports.CHANGE_THEME = "CHANGE_THEME";
+exports.HAT_LIST = "HAT_LIST";
+exports.PRIVATE_SKINS = "PRIVATE_SKINS";

@@ -1,0 +1,1 @@
+(module.exports = require("./1.js")()).push([module.i, ".ads-skins{text-align:center;min-height:120px;z-index:12}.ads-skins ins{z-index:12}.vote-skin{position:absolute;bottom:0;font-size:26px;cursor:pointer;color:#db2828}.vote{color:silver}.vote-number{color:darkred;right:10px}.skin-label{position:absolute}", ""]);

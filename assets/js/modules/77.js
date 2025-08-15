@@ -1,0 +1,1 @@
+(module.exports = require("./1.js")()).push([module.i, "#rules{color:#fff;margin-top:80px;font-size:18px}", ""]);

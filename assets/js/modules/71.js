@@ -1,0 +1,1 @@
+(module.exports = require("./1.js")()).push([module.i, ".ui.container[data-v-6099300a]{margin-top:70px}", ""]);

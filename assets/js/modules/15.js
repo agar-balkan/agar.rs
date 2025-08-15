@@ -1,0 +1,112 @@
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var i = function (e) {
+  if (e && e.__esModule) {
+    return e;
+  } else {
+    return {
+      default: e
+    };
+  }
+}(require("./6.js"));
+exports.default = [{
+  path: "*",
+  component: i.default.components.homepage,
+  name: "notFound"
+}, {
+  path: "/agar.rs/",
+  component: i.default.components.homepage,
+  name: "index",
+  props: true
+}, {
+  path: "/agar.rs/web/:id",
+  component: i.default.components.homepage,
+  name: "indexLink",
+  props: true
+}, {
+  path: "/agar.rs/server/:id",
+  component: i.default.components.homepage,
+  name: "serverLink",
+  props: true
+}, {
+  path: "/agar.rs/home",
+  component: i.default.components.homepage,
+  name: "logged"
+}, {
+  path: "/agar.rs/web/:id",
+  component: i.default.components.homepage,
+  name: "loggedLink"
+}, {
+  path: "/agar.rs/web-login/:id",
+  component: i.default.components.HelpLogin,
+  name: "helpLink"
+}, {
+  path: "/agar.rs/fun/",
+  component: i.default.components.fun,
+  name: "fun"
+}, {
+  path: "/agar.rs/fun/:id",
+  component: i.default.components.fun,
+  name: "funId"
+}, {
+  path: "/agar.rs/ban",
+  component: i.default.components.ban,
+  name: "ban"
+}, {
+  path: "/agar.rs/hats",
+  component: i.default.components.hats,
+  name: "hats"
+}, {
+  path: "/agar.rs/pillory",
+  component: i.default.components.pillory,
+  name: "pillory"
+}, {
+  path: "/agar.rs/skins",
+  component: i.default.components.skins,
+  name: "skins"
+}, {
+  path: "/agar.rs/skin/:name",
+  component: i.default.components.skinPreview,
+  name: "skinPreview"
+}, {
+  path: "/agar.rs/login",
+  component: i.default.components.login,
+  name: "login"
+}, {
+  path: "/agar.rs/register",
+  component: i.default.components.register,
+  name: "register"
+}, {
+  path: "/agar.rs/forgot-password",
+  component: i.default.components.forgotPassword,
+  name: "forgotPassword"
+}, {
+  path: "/agar.rs/reset-password/:code",
+  component: i.default.components.forgotPassword,
+  name: "resetPassword"
+}, {
+  path: "/agar.rs/me",
+  component: i.default.components.myStats,
+  name: "myStats"
+}, {
+  path: "/agar.rs/rules",
+  component: i.default.components.rules,
+  name: "rules"
+}, {
+  path: "/agar.rs/contact",
+  component: i.default.components.contact,
+  name: "contact"
+}, {
+  path: "/agar.rs/highscores",
+  component: i.default.components.rang,
+  name: "highscores"
+}, {
+  path: "/agar.rs/privacy_policy",
+  component: i.default.components.privacy,
+  name: "privacy"
+}, {
+  path: "/agar.rs/contribute",
+  component: i.default.components.contribute,
+  name: "contribute"
+}];

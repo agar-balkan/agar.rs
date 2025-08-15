@@ -1,0 +1,1 @@
+(module.exports = require("./1.js")()).push([module.i, ".coins-img{padding-right:5px;width:23px!important}", ""]);

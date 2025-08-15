@@ -1,0 +1,1 @@
+(module.exports = require("./1.js")()).push([module.i, ".pillory{margin-top:80px}", ""]);
