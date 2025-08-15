@@ -34737,7 +34737,8 @@ Vector2Const = {
 				minionServer: u
 			});
 			if (t !== undefined) {
-				setRegion(r);
+				console.log(r);
+				//setRegion(r);
 			}
 		},
 		getPlayerStats: function (e) {
@@ -44991,6 +44992,7 @@ var warnings = 0;
 		tt = 0;
 	};
 
+	console.log(u);
 	e.setRegion = u;
 
 	e.setSkins = function (e) {
