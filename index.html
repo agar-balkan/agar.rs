@@ -1,5 +1,6 @@
 
 <!DOCTYPE html>
+<!--suppress HtmlUnknownTarget, CssUnknownTarget -->
 <html>
 	<head>
 		<title>Agar Balkan Open Source</title>
@@ -49,92 +50,6 @@
 		<meta name="msapplication-TileColor" content="#ffffff">
 		<meta name="msapplication-TileImage" content="/agar.rs/assets/images/favicon/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
-
-		<style>
-			.se-pre-con {
-				position: fixed;
-				left: 0;
-				top: 0;
-				width: 100%;
-				height: 100%;
-				z-index: 9999;
-				background: url('/agar.rs/assets/images/agar-balkan-loading.gif') center no-repeat #fff;
-			}
-		</style>
-	</head>
-	<body>
-		<nav class="se-pre-nav">
-			<li><a href="/agar.rs/">Home</a></li>
-			<li><a href="/agar.rs/skins">Skins</a></li>
-			<li><a href="/agar.rs/hats">Hats</a></li>
-			<li><a href="/agar.rs/highscores">Results</a></li>
-			<li><a href="/agar.rs/contact">Contact</a></li>
-			<li><a href="/agar.rs/fun">FUN Mod</a></li>
-			<li><a href="/agar.rs/rules">Rules</a></li>
-			<!--
-			<li><a href="/agar.rs/login">Login</a></li>
-			<li><a href="/agar.rs/register">Register</a></li>
-			-->
-			<li><a href="/agar.rs/pillory">Stub srama</a></li>
-			<li><a href="/agar.rs/privacy_policy">Privacy Policy</a></li>
-			<li>
-				<a href="/agar.rs/web">Server List</a>
-				<ul>
-					<li><a href="/agar.rs/web/1">FFA #1</a></li>
-					<li><a href="/agar.rs/web/2">MINIONS #2</a></li>
-					<li><a href="/agar.rs/web/3">INSTANT MERGE #3</a></li>
-					<li><a href="/agar.rs/web/4">MEGA SPLIT #4</a></li>
-					<li><a href="/agar.rs/web/5">EXPERIMENTAL #5</a></li>
-					<li><a href="/agar.rs/web/6">RAINBOW #6</a></li>
-					<li><a href="/agar.rs/web/7">VIRUS MINES #7</a></li>
-					<li><a href="/agar.rs/web/8">OLD EXP #8</a></li>
-					<li><a href="/agar.rs/web/9">TEAMS #9</a></li>
-					<li><a href="/agar.rs/web/10">TOURNAMENT #10</a></li>
-				</ul>
-			</li>
-			<li>
-				<a href="/agar.rs/fun">Games</a>
-				<ul>
-					<li><a href="/agar.rs/fun/1">Balls</a></li>
-					<li><a href="/agar.rs/fun/2">Races - auto</a></li>
-				</ul>
-			</li>
-			<li><a href="#">Lite version</a></li>
-			<li><a href="#">Mobile version</a></li>
-			<li><a href="#">Beta version</a></li>
-		</nav>
-		<div class="se-pre-con"></div>
-
-		<section class="se-pre-sect">
-			<h1>Agar Balkan Open Source</h1>
-			<h2>Game description</h2>
-			<p>The Balkan version of the online fun game agar.io. The goal in this game is to eat food to increase your mass, but be careful not to be eaten by larger players.	</p>
-			<div>
-				<h2>Servers</h2>
-				<p>FFA - A classic game with an old fashioned ogre mode. The size of the map is 20,000x20,000.</p>
-				<p>MINIONS - A game in which each player gets 5 minions that follow him. The player can switch control between himself and the minion by pressing the Q button.</p>
-				<p>INSTANT MERGE - A server where you merge as quickly as possible.</p>
-				<p>MEGA SPLIT - A server on which it is possible to split into 64 parts.</p>
-				<p>EXPERIMENTAL - Server with motherscell and smooth splits.</p>
-				<p>RAINBOW - A server that changes the color of players.</p>
-				<p>VIRUS MINES - A server where you bombard your opponents with viruses.</p>
-				<p>OLD EXP - A classic, old-fashioned server with experimental mode.</p>
-				<p>TEAMS - Division into 3 teams - red, blue, green.</p>
-				<p>TOURNAMENT - The server where the tournaments are played. 6 players are required to start the game.</p>
-			</div>
-			<h2>Skins, hats and options</h2>
-			<p>Customize your own environment by adding or choosing skins, buying hats, and using various options.</p>
-			<h2>Ranking list</h2>
-			<p>Be among the best, rank on the leaderboard, win coins.</p>
-			<h2>Music and communication</h2>
-			<p>Share music and chat with other players.</p>
-		</section>
-
-		<div id="fb-root"></div>
-
-		<div id="app"></div>W
-
-		<canvas id="canvas" width="1920" height="1080"></canvas>
 
 		<link rel="stylesheet" href="/agar.rs/assets/css/styles.min.css?v=0001718">
 
@@ -191,7 +106,94 @@
 				src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCv6KVjbNBYlgoCxCvjsGyN.woff2) format('woff2');
 				unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 			}
+
+			.se-pre-con {
+				position: fixed;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				z-index: 9999;
+				background: url('/agar.rs/assets/images/agar-balkan-loading.gif') center no-repeat #fff;
+			}
 		</style>
+	</head>
+	<body>
+		<nav class="se-pre-nav">
+			<ul>
+				<li><a href="/agar.rs/">Home</a></li>
+				<li><a href="/agar.rs/skins">Skins</a></li>
+				<li><a href="/agar.rs/hats">Hats</a></li>
+				<li><a href="/agar.rs/highscores">Results</a></li>
+				<li><a href="/agar.rs/contact">Contact</a></li>
+				<li><a href="/agar.rs/fun">FUN Mod</a></li>
+				<li><a href="/agar.rs/rules">Rules</a></li>
+				<!--
+				<li><a href="/agar.rs/login">Login</a></li>
+				<li><a href="/agar.rs/register">Register</a></li>
+				-->
+				<li><a href="/agar.rs/pillory">Stub srama</a></li>
+				<li><a href="/agar.rs/privacy_policy">Privacy Policy</a></li>
+				<li>
+					<a href="/agar.rs/web">Server List</a>
+					<ul>
+						<li><a href="/agar.rs/web/1">FFA #1</a></li>
+						<li><a href="/agar.rs/web/2">MINIONS #2</a></li>
+						<li><a href="/agar.rs/web/3">INSTANT MERGE #3</a></li>
+						<li><a href="/agar.rs/web/4">MEGA SPLIT #4</a></li>
+						<li><a href="/agar.rs/web/5">EXPERIMENTAL #5</a></li>
+						<li><a href="/agar.rs/web/6">RAINBOW #6</a></li>
+						<li><a href="/agar.rs/web/7">VIRUS MINES #7</a></li>
+						<li><a href="/agar.rs/web/8">OLD EXP #8</a></li>
+						<li><a href="/agar.rs/web/9">TEAMS #9</a></li>
+						<li><a href="/agar.rs/web/10">TOURNAMENT #10</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="/agar.rs/fun">Games</a>
+					<ul>
+						<li><a href="/agar.rs/fun/1">Balls</a></li>
+						<li><a href="/agar.rs/fun/2">Races - auto</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Lite version</a></li>
+				<li><a href="#">Mobile version</a></li>
+				<li><a href="#">Beta version</a></li>
+			</ul>
+		</nav>
+
+		<div class="se-pre-con"></div>
+
+		<section class="se-pre-sect">
+			<h1>Agar Balkan Open Source</h1>
+			<h2>Game description</h2>
+			<p>The Balkan version of the online fun game agar.io. The goal in this game is to eat food to increase your mass, but be careful not to be eaten by larger players.	</p>
+			<div>
+				<h2>Servers</h2>
+				<p>FFA - A classic game with an old fashioned ogre mode. The size of the map is 20,000x20,000.</p>
+				<p>MINIONS - A game in which each player gets 5 minions that follow him. The player can switch control between himself and the minion by pressing the Q button.</p>
+				<p>INSTANT MERGE - A server where you merge as quickly as possible.</p>
+				<p>MEGA SPLIT - A server on which it is possible to split into 64 parts.</p>
+				<p>EXPERIMENTAL - Server with motherscell and smooth splits.</p>
+				<p>RAINBOW - A server that changes the color of players.</p>
+				<p>VIRUS MINES - A server where you bombard your opponents with viruses.</p>
+				<p>OLD EXP - A classic, old-fashioned server with experimental mode.</p>
+				<p>TEAMS - Division into 3 teams - red, blue, green.</p>
+				<p>TOURNAMENT - The server where the tournaments are played. 6 players are required to start the game.</p>
+			</div>
+			<h2>Skins, hats and options</h2>
+			<p>Customize your own environment by adding or choosing skins, buying hats, and using various options.</p>
+			<h2>Ranking list</h2>
+			<p>Be among the best, rank on the leaderboard, win coins.</p>
+			<h2>Music and communication</h2>
+			<p>Share music and chat with other players.</p>
+		</section>
+
+		<div id="fb-root"></div>
+
+		<div id="app"></div>
+
+		<canvas id="canvas" width="1920" height="1080"></canvas>
 
 		<script>
 			var serIp = 'undefined';
